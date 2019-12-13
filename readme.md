@@ -6,7 +6,7 @@ https://github.com/me7/realworld_svelte_nim
 
 ## Frontend
 
-src = code for frontend using svelte
+Source code live in `src` folder. Build by using svelte framework see [example](https://svelte.dev/examples#each-blocks)
 
 `npm run dev` to start develop
 
@@ -14,6 +14,7 @@ Simply point your [API requests](https://github.com/gothinkster/realworld/tree/m
 ### packages
 
 * [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router)
+* [svelte-awesome](https://github.com/RobBrazier/svelte-awesome) = font awesome icon
 
 ### Backend
 

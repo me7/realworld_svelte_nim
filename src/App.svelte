@@ -6,7 +6,6 @@
 
 <script>
   import Router from 'svelte-spa-router'
-
   import Home from './pages/Home.svelte'	
   import Setting from './pages/Setting.svelte'	
   import Header from './components/Header.svelte'	
