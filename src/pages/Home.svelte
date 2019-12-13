@@ -1,9 +1,18 @@
+<button on:click={getArticles}>Get Data</button>
 {#each posts as p}
 <h1>{p}</h1>
 {/each}
+
+
 <script>
+  import * as api from 'api.js'
   let posts = []
-  for(let i=0;i<100;i++){
-      posts.push("Post " + i)
+
+  async function getArticles(){
+    let data = await api.get('/articles')
+    console.log(data)
+    for(let i=0;i<20;i++){
+      posts = [...posts, data.articles[i].title]
+    }
   }
 </script>

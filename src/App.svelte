@@ -15,5 +15,6 @@
     '/' : Home,
     '/setting' : Setting
   }
+
 </script>
 
