@@ -17,3 +17,9 @@
   }
 
 </script>
+
+<style>
+main{
+  background-color: #fff;
+}
+</style>
