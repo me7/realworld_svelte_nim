@@ -1,6 +1,6 @@
-<div class="border-solid border-gray-600">
+<div>
   {#if articles}
-    {#each articles as article, i}
+    {#each articles as article}
       <ArticlePreview {article} />
     {/each}
   {:else}
