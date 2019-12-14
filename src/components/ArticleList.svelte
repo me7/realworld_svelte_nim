@@ -1,8 +1,8 @@
-<p>ArticleList</p>
 <div class="border-solid border-gray-600">
   {#if articles}
-    <pre>{articlesCount}</pre>
-    <pre>{articles}</pre>
+    {#each articles as article, i}
+      <ArticlePreview {article} />
+    {/each}
   {:else}
     Loading...
   {/if}
@@ -12,6 +12,7 @@
 
 <script>
   import * as api from 'api.js'
+  import ArticlePreview from './ArticlePreview.svelte'
 
   let articles
   let articlesCount
