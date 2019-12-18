@@ -14,10 +14,7 @@
 </script>
 
 <style>
-  main {
-    background-color: #fff;
-    box-sizing: border-box;
-  }
+
 </style>
 
 <main class="flex flex-col min-h-screen">
@@ -25,5 +22,7 @@
     <Header />
     <Router {routes} />
   </div>
-  <Footer />
+  <div class="sticky bottom-0">
+    <Footer />
+  </div>
 </main>

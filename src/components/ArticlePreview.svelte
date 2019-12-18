@@ -30,7 +30,7 @@
       </button>
     </div>
   </div>
-  <h2 class="text-lg font-bold">{article.title}</h2>
-  <p>{article.body}</p>
-  <a href="#/article/{article.slug}" class="text-sm">Read more..</a>
+  <h2 class="text-2xl text-gray-800 font-bold">{article.title}</h2>
+  <p class="text-gray-700">{article.description}</p>
+  <a href="#/article/{article.slug}" class="text-sm text-gray-500">Read more..</a>
 </div>

@@ -4,7 +4,7 @@
 
   import ArticleList from "../components/ArticleList.svelte";
 
-  let page = 30;
+  let page = 1;
 </script>
 
 <Hero />
