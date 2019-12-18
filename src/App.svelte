@@ -8,12 +8,14 @@
   import Router from 'svelte-spa-router'
   import Home from './pages/Home.svelte'	
   import Setting from './pages/Setting.svelte'	
+  import Login from './pages/Login.svelte'	
   import Header from './components/Header.svelte'	
   import Footer from './components/Footer.svelte'	
 
   const routes = {
     '/' : Home,
-    '/setting' : Setting
+    '/setting' : Setting,
+    '/login' : Login
   }
 
 </script>

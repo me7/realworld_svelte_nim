@@ -1,5 +1,4 @@
 <Nav />
-<Hero />
 
 <script>
 import Nav from './Nav.svelte'
