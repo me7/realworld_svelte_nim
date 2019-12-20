@@ -1,3 +1,7 @@
+:root {
+	--bg-pri: #6c6;
+	--text-pri: #fff;
+}
 /* html, body {
 	position: relative;
 	width: 100%;
@@ -44,19 +48,23 @@ input:disabled {
 	color: #ccc;
 }
 
+input:focus {
+	border: var(--bg-pri) 1px solid;
+	box-shadow: 0px 0px 0px 3px rgba(80, 255, 80, 0.3);
+}
+
 input[type="range"] {
 	height: 0;
 }
 
-/*
 button {
-	color: #333;
-	background-color: #f4f4f4;
+	color: var(--text-pri);
+	background-color: var(--bg-pri);
 	outline: none;
 }
 
 button:disabled {
-	color: #999;
+	background-color: #999;
 }
 
 button:not(:disabled):active {
@@ -66,4 +74,3 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
-*/
